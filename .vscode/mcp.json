@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "pipeline-ops": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "--locked",
+        "python",
+        "src/pipeline_ops_mcp/server.py"
+      ],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}
